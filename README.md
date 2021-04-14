@@ -36,3 +36,10 @@ const myNewestObject = JSON.parse(JSON.stringify(foods));
 // Using the lodash JS library, provides a more efficient way to deep clone. More on that on: https://lodash.com/docs/#cloneDeep and
 // https://www.digitalocean.com/community/tutorials/js-deep-cloning-javascript-objects
 ```
+#Capitalize the first letter of a sentence in Javascript (one line)
+```
+let capitalize = (sentence) => sentence.charAt(0).toUpperCase() + sentence.slice(1);
+
+capitalize('what does the fox say?'); // should return 'What does the fox say?'
+
+```
