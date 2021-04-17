@@ -43,3 +43,7 @@ let capitalize = (sentence) => sentence.charAt(0).toUpperCase() + sentence.slice
 capitalize('what does the fox say?'); // should return 'What does the fox say?'
 
 ```
+# Execute or load a function after the DOM has loaded
+```
+window.addEventListener('DOMContentLoaded', () => myFunction());
+```
