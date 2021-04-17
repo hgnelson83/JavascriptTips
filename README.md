@@ -47,3 +47,12 @@ capitalize('what does the fox say?'); // should return 'What does the fox say?'
 ```
 window.addEventListener('DOMContentLoaded', () => myFunction());
 ```
+
+# Adding multiple event listeners to different form fields in Javascript
+```
+document.querySelectorAll('#address, #city, #state').forEach(item => {
+  item.addEventListener("blur", function() {
+    console.log(`${el.name}: ${el.value}`)
+  })
+})
+```
