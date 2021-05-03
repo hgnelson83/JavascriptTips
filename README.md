@@ -56,3 +56,19 @@ document.querySelectorAll('#address, #city, #state').forEach(item => {
   })
 })
 ```
+# Create a Multiply function, without using the * operator
+```
+let multiply = (a, b) => {
+    let total = 0;
+    const isPositive = Math.abs(b) == b; // returns a boolean
+    
+    for(let i=0; i < Math.abs(b); i++) {
+        total = isPositive ? total + a : total - a;
+    }
+    return total;
+}
+
+// test function
+multiply(-5,-4);
+
+```
