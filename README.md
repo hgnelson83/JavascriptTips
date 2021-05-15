@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', () => myFunction());
 ```
 document.querySelectorAll('#address, #city, #state').forEach(item => {
   item.addEventListener("blur", function() {
-    console.log(`${el.name}: ${el.value}`)
+    console.log(`${item.id}`)
   })
 })
 ```
