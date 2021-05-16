@@ -72,3 +72,25 @@ let multiply = (a, b) => {
 multiply(-5,-4);
 
 ```
+# Javascript Dates
+### Get Current Day of the Week
+```
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const today = new Date().getDay();
+console.log(days[today]);
+```
+### Get Month
+```
+// JS months is zero-based (starts an index of zero)
+const month = new Date().getMonth() +1
+console.log(month);
+```
+### Get Year
+```
+const year = new Date().getFullYear();
+console.log(year);
+```
+### Get Full Date
+```
+new Date().toDateString();
+```
