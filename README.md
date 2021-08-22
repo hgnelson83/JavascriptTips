@@ -56,6 +56,15 @@ document.querySelectorAll('#address, #city, #state').forEach(item => {
   })
 })
 ```
+# Check if an array of objects exists
+## returns a list of ids if it does
+## Useful when working with API rest, and the backend expects an array of ids or numbers
+```
+if(myArray.some(item => item.name)) { // would return true if it exists
+    myArray = myArray.map(item => item.id);
+}
+```
+
 # Create a Multiply function, without using the * operator
 ```
 let multiply = (a, b) => {
