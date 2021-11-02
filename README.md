@@ -103,3 +103,8 @@ console.log(year);
 ```
 new Date().toDateString();
 ```
+### Truncate a decimal to the nearest integer
+```
+let myDecimal = 14.7045454545455;
+myDecimal.toFixed()-0; // returns 15
+```
