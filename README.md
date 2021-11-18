@@ -64,7 +64,12 @@ if(myArray.some(item => item.name)) { // would return true if it exists
     myArray = myArray.map(item => item.id);
 }
 ```
-
+# Check if an array exists
+```
+const isEmpty = (arr) => !Array.isArray(arr) || arr.length === 0;
+isEmpty([]); // true
+isEmpty([1, 2, 3]); // false
+```
 # Create a Multiply function, without using the * operator
 ```
 let multiply = (a, b) => {
