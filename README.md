@@ -74,7 +74,7 @@ isEmpty([1, 2, 3]); // false
 ```
 let carModelsA = ["BMW", "Audi", "Opel", "Volkswagen", "Citroen", "Peugeot"];
 let carModelsB = ["Suzuki", "Dacia", "Renault", "Volkswagen", "Mercedes", "Ferrari"];
-carModels.filter(model => moreCarModels.includes(model)); // returns ["Volkswagen"]
+carModelsA.filter(model => carModelsB.includes(model)); // returns ["Volkswagen"]
 ```
 # Create a Multiply function, without using the * operator
 ```
