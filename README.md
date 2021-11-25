@@ -70,6 +70,12 @@ const isEmpty = (arr) => !Array.isArray(arr) || arr.length === 0;
 isEmpty([]); // true
 isEmpty([1, 2, 3]); // false
 ```
+# Check interception of two array values. Or check if two arrays contain the same value.
+```
+let carModelsA = ["BMW", "Audi", "Opel", "Volkswagen", "Citroen", "Peugeot"];
+let carModelsB = ["Suzuki", "Dacia", "Renault", "Volkswagen", "Mercedes", "Ferrari"];
+carModels.filter(model => moreCarModels.includes(model)); // returns ["Volkswagen"]
+```
 # Create a Multiply function, without using the * operator
 ```
 let multiply = (a, b) => {
