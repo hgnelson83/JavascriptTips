@@ -92,7 +92,7 @@ let multiply = (a, b) => {
 multiply(-5,-4);
 
 ```
-# Javascript Dates
+## Javascript Dates
 ### Get Current Day of the Week
 ```
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -114,8 +114,12 @@ console.log(year);
 ```
 new Date().toDateString();
 ```
-### Truncate a decimal to the nearest integer
+## Truncate a decimal to the nearest integer
 ```
 let myDecimal = 14.7045454545455;
 myDecimal.toFixed()-0; // returns 15
 ```
+## Insert Objects to a Form Data
+```
+
+````
